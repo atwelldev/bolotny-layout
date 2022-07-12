@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header header--white">
+    <div class="header__container container container--big">
+      <div class="header__wrapper">
+        <div class="header__inner">
+          <div class="logo">
+            <picture>
+              <source srcset="img/icons/logo-big.svg" media="(max-width: 767px)">
+              <img class="logo__img"" src="img/icons/logo--darkBlue.svg" alt="">
+            </picture>
+          </div>
+          <div class="header__close-box">
+            <span class="header__close"></span>
+          </div>
+          <div class="header__right header__right--search-window">
+            <div class="menu-btn menu-btn">
+              <div class="menu-btn__btn">
+                <span class="menu-btn__icon menu-btn__icon--white"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu__content menu__content--white">
+          <div class="language language--small">
+            <a class="language__text language__text--small language__text--white language__text--margin language__text--active"
+              href="#">
+              RU
+            </a>
+            <a class="language__text language__text--small" href="#">
+              EN
+            </a>
+          </div>
+          <div class="search">
+            <label class="search__label--small search__label--white">
+              <input class="search__input search__input--small search__input--white" type="text" placeholder="Search">
+              <span class="search__close search__close--small search__close--white"></span>
+            </label>
+          </div>
+          <ul class="menu__items">
+            <li class="menu__item menu__item--white">
+              <a class="menu__item-page menu__item-page--white" href="./index.html">
+                Главная страница
+              </a>
+            </li>
+            <li class="menu__item menu__item--white">
+              <a class="menu__item-page menu__item-page--white" href="./about.html">
+                О нас
+              </a>
+            </li>
+            <li class="menu__item menu__item--white">
+              <div class="menu__item-page-box">
+                <a class="menu__item-page menu__item-page--white" href="./project.html">
+                  Проекты
+                </a>
+                <span class="menu__item-page-arrow"></span>
+              </div>
+              <div class="menu__item-inner">
+                <div class="menu__project-box">
+                  <h3 class="menu__project-title menu__project-title--white">
+                    Архитектура
+                  </h3>
+                  <ul class="menu__projects-items">
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="menu__project-box">
+                  <h3 class="menu__project-title menu__project-title--white">
+                    Интерьер
+                  </h3>
+                  <ul class="menu__projects-items">
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                    <li class="menu__project-item">
+                      <a class="menu__project-link menu__project-link--white" href="./project-card.html">
+                        Название проекта
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__item--white">
+              <a class="menu__item-page menu__item-page--white" href="./contacts.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="search-window">
+      <div class="container">
+        <div class="search-window__inner">
+          <h1 class="search-window__title title">
+            Вилла
+          </h1>
+          <a class="search-window__reset" href="#">
+            Сбросить
+          </a>
+        </div>
+        <div class="search">
+          <label class="search__label--small search__label--white">
+            <input class="search__input search__input--small search__input--search-window search__input--white" type="text" placeholder="Search">
+            <span class="search__close search__close--white"></span>
+          </label>
+          <div class="result result--small">
+            <ul class="result__items">
+              <li class="result__item">
+                <a class="result__link" href="./project-card.html">
+                  <div class="result__img-box">
+                    <img class="result__img" src="img/search-window__img.jpg" alt="">
+                  </div>
+                  <div class="result__content">
+                    <h2 class="result__title">
+                      <span class="result__title--weight">Вилла</span> в подмосковье
+                    </h2>
+                    <div class="result__text">
+                      <p>
+                        Проект был выполнен в 2019 году. В результате была...
+                      </p>
+                    </div>
+                    <div class="result__breadcrups">
+                      <div class="result__path">
+                        Главная
+                      </div>
+                      <div class="result__path">
+                        Проекты
+                      </div>
+                      <div class="result__path">
+                        Архитектура
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result__item">
+                <a class="result__link" href="./project-card.html">
+                  <div class="result__img-box">
+                    <img class="result__img" src="img/search-window__img.jpg" alt="">
+                  </div>
+                  <div class="result__content">
+                    <h2 class="result__title">
+                      Двухэтажная <span class="result__title--weight">вилла</span>
+                    </h2>
+                    <div class="result__text">
+                      <p>
+                        ...спроектирована вилла для семьи из 4х человек...
+                      </p>
+                    </div>
+                    <div class="result__breadcrups">
+                      <div class="result__path">
+                        Главная
+                      </div>
+                      <div class="result__path">
+                        Проекты
+                      </div>
+                      <div class="result__path">
+                        Интерьеры
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="result__item">
+                <a class="result__link" href="./project-card.html">
+                  <div class="result__img-box">
+                    <img class="result__img" src="img/search-window__img.jpg" alt="">
+                  </div>
+                  <div class="result__content">
+                    <h2 class="result__title">
+                      Самый необычный проект
+                    </h2>
+                    <div class="result__text">
+                      <p>
+                        ...спроектирована <span class="result__title--weight">вилла</span> для семьи из 4х человек...
+                      </p>
+                    </div>
+                    <div class="result__breadcrups">
+                      <div class="result__path">
+                        Главная
+                      </div>
+                      <div class="result__path">
+                        Проекты
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a class="result__all" href="./search.html">
+              Смотреть ещё <span class="result__all-num">5</span> результатов
+            </a>
+          </div>
+        </div>
+        <span class="search-window__result">
+          Найдено <span class="search-window__all-result">8</span> результатов
+        </span>
+        <ul class="search-window__items">
+          <li class="search-window__item">
+            <a class="search-window__item-link" href="./project-card.html">
+              <div class="search-window__img-box">
+                <img class="search-window__img" src="img/search-window__img.jpg" alt="">
+              </div>
+              <div class="search-window__content">
+                <h2 class="search-window__item-title">
+                  <span class="search-window__item-title--weight">Вилла</span> в подмосковье
+                </h2>
+                <div class="search-window__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+                    fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper
+                    eget nulla facilisi etiam dignissim
+                  </p>
+                </div>
+                <div class="search-window__breadcrups">
+                  <div class="search-window__path">
+                    Главная
+                  </div>
+                  <div class="search-window__path">
+                    Проекты
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="search-window__item">
+            <a class="search-window__item-link" href="./project-card.html">
+              <div class="search-window__img-box">
+                <img class="search-window__img" src="img/search-window__img.jpg" alt="">
+              </div>
+              <div class="search-window__content">
+                <h2 class="search-window__item-title">
+                  <span class="search-window__item-title--weight">Вилла</span> в подмосковье
+                </h2>
+                <div class="search-window__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus
+                    magna
+                    fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est
+                    ullamcorper
+                    eget nulla facilisi etiam dignissim
+                  </p>
+                </div>
+                <div class="search-window__breadcrups">
+                  <div class="search-window__path">
+                    Главная
+                  </div>
+                  <div class="search-window__path">
+                    Проекты
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="search-window__item">
+            <a class="search-window__item-link" href="./project-card.html">
+              <div class="search-window__img-box">
+                <img class="search-window__img" src="img/search-window__img.jpg" alt="">
+              </div>
+              <div class="search-window__content">
+                <h2 class="search-window__item-title">
+                  <span class="search-window__item-title--weight">Вилла</span> в подмосковье
+                </h2>
+                <div class="search-window__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus
+                    magna
+                    fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est
+                    ullamcorper
+                    eget nulla facilisi etiam dignissim
+                  </p>
+                </div>
+                <div class="search-window__breadcrups">
+                  <div class="search-window__path">
+                    Главная
+                  </div>
+                  <div class="search-window__path">
+                    Проекты
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="search-window__item">
+            <a class="search-window__item-link" href="./project-card.html">
+              <div class="search-window__img-box">
+                <img class="search-window__img" src="img/search-window__img.jpg" alt="">
+              </div>
+              <div class="search-window__content">
+                <h2 class="search-window__item-title">
+                  <span class="search-window__item-title--weight">Вилла</span> в подмосковье
+                </h2>
+                <div class="search-window__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus
+                    magna
+                    fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est
+                    ullamcorper
+                    eget nulla facilisi etiam dignissim
+                  </p>
+                </div>
+                <div class="search-window__breadcrups">
+                  <div class="search-window__path">
+                    Главная
+                  </div>
+                  <div class="search-window__path">
+                    Проекты
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="search-window__page-inner">
+          <div class="search-window__page">
+            <span class="search-window__page-arrow search-window__page-next"></span>
+            <div class="search-window__page-wrapper">
+              <a class="search-window__page-page search-window__page-num search-window__page-num--active" href="#">1</a>
+              <a class="search-window__page-page search-window__page-num" href="#">2</a> 
+              <span class="search-window__page-page search-window__points">...</span> 
+              <a class="search-window__page-page search-window__page-num" href="#">7</a>
+              <a class="search-window__page-page search-window__page-num" href="#">8</a> 
+            </div>
+            <span class="search-window__page-arrow search-window__page-prev"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="search__icon" id="search__icon"></div>
+
+  <footer class="footer footer--main-small footer--small">
+    <div class="container">
+      <ul class="footer__items">
+        <li class="footer__item footer__item--small">
+          © 2021 Bolotny
+        </li>
+        <li class="footer__item footer__item--small">
+          Политика конфиденциальности
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+  <script src="js/main.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+  
+</html>
